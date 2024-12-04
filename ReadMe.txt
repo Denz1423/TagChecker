@@ -6,13 +6,14 @@ Technologies Used:
 - Jest
 
 Setup and Execution:
-1. Unzip the project folder
+1. Clone the repository:
+    git clone https://github.com/Denz1423/TagChecker.git
 
 2. Navigate to the project directory:
-    Cd into folder (TagChecker)
+    cd into folder (TagChecker)
 
 3. Install the required dependencies:
-    npm i
+    npm install
 
 4. The package.json file contains the following scripts:
     - start: To run the sample inputs (SampleInput.js)
