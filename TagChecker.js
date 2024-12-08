@@ -8,7 +8,7 @@ function TagChecker(sentence) {
     if (sentence[i] === "<") {
       if (
         i + 2 < sentence.length &&
-        /[A-Z]/.test(sentence[i + 1]) && // Check if the character after an '<' is an uppercase letter
+        /[A-Z]/.test(sentence[i + 1]) && // Check if the character after a '<' is an uppercase letter
         sentence[i + 2] === ">" // Ensure it ends with '>' for a valid tag
       ) {
         stack.push(sentence[i + 1]);
